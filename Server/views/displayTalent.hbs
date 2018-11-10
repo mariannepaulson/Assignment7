@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Talent Pool List</title>
+</head>
+
+<body>
+{{> header}}
+<h1>{{pageTitle}}</h1>
+<table border="1">
+    <tr>
+        <th>First Name</th>
+        <th>Middle Name</th>
+        <th>Last Name</th>
+        <th>Phone</th>
+        <th>Email</th>
+        <th>Interested Jobs</th>
+    </tr>
+
+    {{#each talent}}
+        <tr>
+            <td>{{this.fname}}</td>
+            <td>{{this.mname}}</td>
+            <td>{{this.lname}}</td>
+            <td>{{this.phone}}</td>
+            <td>{{this.email}}</td>
+            <td>{{this.jobs}}</td>
+        </tr>
+    {{/each}}
+</table>
+
+{{> footer}}
+
+</body>
+</html>

@@ -1,0 +1,65 @@
+/*.logoContainer{*/
+
+    /*width: 90px;*/
+    /*height: 50px;*/
+/*}*/
+
+/*.logo{*/
+
+    /*width: 90px;*/
+    /*height: 50px;*/
+
+/*}*/
+.Home{
+
+    width: 100%;
+    height: 20%;
+
+}
+
+.headerContainer{
+
+    text-align: left;
+    padding: 4px;
+
+
+}
+.searchBar{
+    width:100% ;
+    /*height: 100%;*/
+    text-align: center;
+
+}
+.searchContainer{
+    width:100% ;
+    /*height: 100%;*/
+    display: inline-flex;
+    /*display: inherit;*/
+    padding: 5px;
+
+}
+.jobSearch{
+
+
+    padding: 1px;
+}
+.searchJobs{
+    border-radius: 35px;
+    text-align: center;
+
+}
+.searchLocation{
+    padding: 1px;
+
+}
+.SearchLocation{
+    border-radius: 35px;
+    text-align: center;
+}
+.searchButton{
+    padding: 1px;
+}
+.button{
+    border-radius: 35px;
+    height: auto;
+}

@@ -1,0 +1,8 @@
+
+marquee {
+    font-style: oblique;
+    position: absolute;
+    top:100;
+    color: blue;
+            /*blue;*/
+}

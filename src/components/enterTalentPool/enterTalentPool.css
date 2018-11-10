@@ -1,0 +1,37 @@
+h1 {
+    text-align: center;
+}
+
+fieldset {
+    width: 20em;
+    background-color: lightgray;
+    box-shadow: 5px 5px 5px gray;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+label {
+    float: left;
+    width: 7em;
+    clear: left;
+    text-align: right;
+    padding-right: 1em;
+}
+
+input {
+    float: left;
+}
+
+button {
+    display: block;
+    margin-top: 8em;
+    margin-left: auto;
+    margin-right: auto;
+    clear: both;
+}
+
+span {
+
+    display: inline-table;
+    text-align: center;
+}

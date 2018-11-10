@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en-US">
+	<head>
+		<meta charset="UTF-8">
+		<title>login Page</title>
+		<style type="text/css">
+			 a:link {
+				color: #cc0000;
+				}
+			 a:visited {
+				color: #999999;
+				}
+			a:hover {
+				color: #ff3300;
+				} 
+		</style>
+	</head>
+	<body>
+		<form action="/login" method="post">
+			<fieldset>
+				<legend>User Credential</legend>
+				<p>Email or Username
+					<input name="email" type="text" required/>
+				</p>
+				<p>Password
+					<input name="password" type="password" required/>
+				</p>
+				<p>
+					<input name="submit" type="submit" value="submit"/>
+				</p>
+				<p><a href="/signUp">SignUp</a>&nbsp;&nbsp;</p>
+			</fieldset>
+		</form>
+	</body>
+</html>

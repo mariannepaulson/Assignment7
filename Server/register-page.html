@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Registration</title>
+		<script type="text/javascript">
+		/* function confirm-Password(){
+			var formObject = document.forms["registration-form"];
+			var password = formObject.elements[0];
+			var confirmPassword = formObject.elements[1];
+			var passwordValue = password.value;
+			var confirmPassword = confirmPassword.value;
+			if (passwordValue != confirmPasswordValue){
+				confirmPassword.setCustomValidity("Passwords Don't Match");
+			}
+			else{
+				confirmPassword.setCustomValidity('')
+			}
+
+		} */
+		</script>
+	</head>
+	<body>
+		<form id="registration-form" action="/registration" method="post">
+			<fieldset>
+				<legend>SignUp</legend>
+				<p>First Name
+					<input name="firstName" type="text" required/>
+				</p>
+				<p>Last Name
+					<input name="lastName" type="text" required/>
+				</p>
+				<p>Email Address
+					<input name="email" type="text" required/>
+				</p>
+				<p>User Name
+					<input name="userName" type="text" required/>
+				</p>
+				<p>Password
+					<input name="password" type="password" required/>
+				</p>
+				<p>Confirm Password
+					<input name="confirmPassword" type="password" required/>
+				</p>
+				<p>
+					<input name="Submit" type="submit" value="submit"/>
+				</p>
+			</fieldset>
+		</form>
+	</body>
+</html>

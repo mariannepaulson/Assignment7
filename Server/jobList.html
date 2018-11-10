@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang=en-US>
+	<head>
+		<meta charset="UTF-8">
+		<title>Job List</title>
+	</head>
+	<body>
+		<p>Jobs will be posted here</p>
+		<fieldset>
+		<legend>Job List</legend>
+			<form action="/applyJob" method="post">
+				<p>Company Name
+					<input name="companyName" type="text" value="Google" readonly/>
+				</p>
+				<p>Job Id
+					<input name="jobId" type="text" value="42351" readonly/>
+				</p>
+				
+				<p>location
+					<input name="location" type="text" value="San Joes" readonly/>
+				</p>
+				<p>Position
+					<input name="position" type="text" value="Software Engineer" readonly/>
+				</p>
+				<p>
+					<input name="submit" type="submit" value="Apply"/>
+				</p>
+			</form>
+		</fieldset>
+	</body>
+</html>

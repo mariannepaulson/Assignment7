@@ -1,0 +1,55 @@
+import myimage from './backgroundImg.jpg'*/
+
+/*.App {*/
+    /*margin: 1rem;*/
+    /*font-family: Arial, Helvetica, sans-serif;*/
+    /*text-align: center;*/
+    /*!*background-color: #1e00ff;*!*/
+    /*width: 97%;*/
+    /*height: 100%;*/
+    /*padding: 1px;*/
+    /*!*background-image: {myimage};*!*/
+    /*!*background: #ff3300 url({myimage});*!*/
+
+/*}*/
+
+.App {
+    margin: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    /*background-color: #1e00ff;*/
+    width: 97%;
+    height: 100%;
+    padding: 1px;
+    /*background-image: {myimage};*/
+    /*background: #ff3300 url({myimage});*/
+
+}
+
+.linkPages{
+
+    display: flex;
+    justify-content:flex-end;
+}
+
+.logo {
+    height:140;
+    width:150;
+    margin-left:40;
+}
+
+.logo:hover {
+    -webkit-animation: spin 10s infinite;
+    animation: spin 5s infinite;
+}
+
+@-webkit-keyframes spin {
+    from {
+        -webkit-transform: rotateY(0deg);
+    }
+    to {
+        -webkit-transform: rotateY(-360deg);
+    }
+}
+
+
